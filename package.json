@@ -4,7 +4,7 @@
   "description": "a git Animation Record exercise",
   "main": "index.js",
   "scripts": {
-    "buildcss": "sass src/sass:public/css"
+    "buildcss": "sass --watch src/sass:public/css"
   },
   "repository": {
     "type": "git",
