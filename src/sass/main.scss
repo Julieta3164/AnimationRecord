@@ -1,0 +1,46 @@
+header {
+    display: flex;
+    flex-wrap: wrap;
+    border: solid 3px rgb(94, 22, 22);
+
+    .logo {
+        img {
+            width: 250px;
+            height: 320x;
+            left: 16px;
+            top: 8px;
+        }
+    }
+
+    .title {
+        display: flex;
+        align-items: center;
+        font-family: 'Lobster', cursive;
+        font-size: 50px;
+    }
+
+    #contenedor {
+        display: flex;
+        padding-top: 5%;
+        position: relative;
+        left: 30%;
+    }
+
+    .home {
+        margin-right: 10%;    
+        img {
+            width: 80px;
+            height: 80px;
+        }
+    }
+
+    .carrito {
+        padding: 10%;
+        img {
+            width: 55px;
+            height: 55px;
+        }
+    }
+
+
+}
