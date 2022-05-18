@@ -1,10 +1,12 @@
 header {
+    margin: 5px;
     display: flex;
     flex-wrap: wrap;
     border: solid 3px rgb(94, 22, 22);
 
     .logo {
         img {
+            margin-left: px;
             width: 250px;
             height: 320x;
             left: 16px;
@@ -27,7 +29,8 @@ header {
     }
 
     .home {
-        margin-right: 10%;    
+        margin-right: 10%;
+
         img {
             width: 80px;
             height: 80px;
@@ -36,11 +39,23 @@ header {
 
     .carrito {
         padding: 10%;
+
         img {
             width: 55px;
             height: 55px;
         }
     }
+}
+
+footer {
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    border: solid 3px rgb(94, 22, 22);
+
+    img {
+        width: 250px;
 
 
+    }
 }
