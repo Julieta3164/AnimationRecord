@@ -1,3 +1,5 @@
+
+
 header {
     width: 100%;
     margin: 5px;
@@ -49,7 +51,6 @@ header {
 }
 
 .banner {
-
     border-width: 100%;
     margin: 5px;
     img {
@@ -58,29 +59,9 @@ header {
     }
 }
 
-table{
-    display: flex;
-    border: solid 3px rgb(94, 22, 22);
-    border-width: 100%;
-}
-
-.barra{
-    background-color: rgb(94, 22, 22);
-    h2{font-family: 'Lobster', cursive;
-
-    }
-}
 #category{
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: 300px, 300px;
-        padding-top: 5%;
-        position: relative;
-        left: 30%;
-    img{
-        width: 100%;
-    }
-
 }
 
 
