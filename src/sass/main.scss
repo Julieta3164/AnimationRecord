@@ -67,6 +67,35 @@ header {
     font-family: 'Lobster', cursive;
     font-size: 40px;
 }
+
+#gallery{
+    background-color:rgb(94, 22, 22) ;
+    height: 50px;
+    color: white;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    font-size: 40px;
+}
+
+.popular {
+    padding-top: 50px;
+    border: solid rgb(94, 22, 22);
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(3,300px);
+    row-gap: 50px;
+    
+    
+    img {
+        width: 250px;
+        height: 300px;
+    }
+    img:hover {
+        width: 250px;
+        height: 320px;
+       
+    }
+}
   
 #popular {
 display: flex;
@@ -157,28 +186,6 @@ footer {
         width: 250px;
     }
 }
-#seccion{
-    background-color:rgb(94, 22, 22) ;
-    height: 50px;
-    color: white;
-    text-align: center;
-    font-family: 'Lobster', cursive;
-    font-size: 40px;
-}
 
-.populares {
-    padding-top: 50px;
-    width: 100%;
-    border-width: 100%;
-    border: solid rgb(94, 22, 22);
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat(2,300px);
-    row-gap: 20px;
-    img {
-        width: 250px;
-        height: 300px;
-    }
 
    
-}
