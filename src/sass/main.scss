@@ -49,7 +49,7 @@ header {
     justify-content: center;
     width: 100%;
     margin-top: 3%;
-    margin-bottom: 3%;
+    
 
     img {
         width: 100%;
@@ -58,7 +58,7 @@ header {
 }
 
 .title-2 {
- 
+ margin-top: 3%;
     width: 100%;
     height: 50px;
     background-color: rgb(94, 22, 22);
@@ -87,7 +87,7 @@ header {
     
     
     img {
-        width: 250px;
+        width: 225px;
         height: 300px;
     }
     img:hover {
@@ -159,25 +159,42 @@ float: left;
         color:white;
     }
 
-#category {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    #category {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        margin-left: 1.5%;
+       justify-content: center;
+       align-items: center; 
+        img{
+           margin: 1%;
+            width:90%;
+            border: solid rgb(94, 22, 22);
+        }
+    }
+
+
+ 
+.subscription{
+    margin-top: 1%;
+    width: 99,5%;
+    border: solid rgb(94, 22, 22);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 80px;
+    .input{
+        margin: 1%;
+    }
+    .btn{
+        margin: 1%;
+    }
+    
+  
+   
 }
 
-#category{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    img{
-        margin: 1%;
-        width: 30%;
-        border: solid rgb(94, 22, 22);
-    }
-} 
-    
-
 footer {
-    margin: 5px;
+    margin-top: 3%;
     display: flex;
     justify-content: center;
     border: solid 3px rgb(94, 22, 22);
