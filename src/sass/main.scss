@@ -1,3 +1,4 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css");
 body{
     margin: 5%;
 }
@@ -168,9 +169,8 @@ header {
     justify-content: space-around;
     border: solid rgb(94, 22, 22);
 
-    img {
-        width: 55px;
-        height: 55px;
+    i{
+        font-size: 3em;
         margin: 1%;
     }
 }
