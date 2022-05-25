@@ -49,7 +49,7 @@ header {
     justify-content: center;
     width: 100%;
     margin-top: 3%;
-    margin-bottom: 3%;
+    
 
     img {
         width: 100%;
@@ -58,7 +58,7 @@ header {
 }
 
 .title-2 {
- 
+ margin-top: 3%;
     width: 100%;
     height: 50px;
     background-color: rgb(94, 22, 22);
@@ -68,25 +68,121 @@ header {
     font-size: 40px;
 }
 
-#category {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+#gallery{
+    background-color:rgb(94, 22, 22) ;
+    height: 50px;
+    color: white;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    font-size: 40px;
 }
 
-#category{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    img{
-        margin: 1%;
-        width: 30%;
-        border: solid rgb(94, 22, 22);
-    }
-} 
+.popular {
+    padding-top: 50px;
+    border: solid rgb(94, 22, 22);
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(3,300px);
+    row-gap: 50px;
     
+    
+    img {
+        width: 225px;
+        height: 300px;
+    }
+    img:hover {
+        width: 250px;
+        height: 320px;
+       
+    }
+}
+    #category {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        margin-left: 1.5%;
+       justify-content: center;
+       align-items: center; 
+        img{
+           margin: 1%;
+            width:90%;
+            border: solid rgb(94, 22, 22);
+        }
+    }
+
+
+ 
+.subscription{
+    margin-top: 1%;
+    width: 99,5%;
+    border: solid rgb(94, 22, 22);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 80px;
+    .input{
+        margin: 1%;
+    }
+    .btn{
+        margin: 1%;
+    }
+    
+  
+   
+}
+
+
+.principal {
+    display: flex;
+    align-items: center;
+
+    .otra-foto {
+        margin: 1%;
+        img{
+            width: 90%;
+        }
+    }
+
+    .texto-2 {
+        margin: 1%;
+
+        .info {
+            text-align: justify;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 100%;
+            padding: 3%;
+            border: solid 10px rgb(94, 22, 22)
+        }
+    }
+}
+
+.añadir {
+    display: flex;
+    justify-content: space-around;
+    border: solid rgb(94, 22, 22);
+
+    img {
+        width: 55px;
+        height: 55px;
+        margin: 1%;
+    }
+}
+
+
+
+.ultimas-fotos {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 3%;
+
+    img {
+        width: 15%;
+    }
+}
+
+
 
 footer {
-    margin: 5px;
+    margin-top: 3%;
     display: flex;
     justify-content: center;
     border: solid 3px rgb(94, 22, 22);
@@ -95,3 +191,7 @@ footer {
         width: 250px;
     }
 }
+
+
+   
+
