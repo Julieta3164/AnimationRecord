@@ -104,3 +104,4 @@ dist
 .tern-port
 public/css/main.css
 public/css/main.css.map
+.DS_Store
