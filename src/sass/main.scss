@@ -153,6 +153,14 @@ header {
             border: solid 10px rgb(94, 22, 22)
         }
     }
+    .muestra{
+        display: flex;
+        justify-content: center;
+        img{
+            margin: 1%;
+            width: 15%;
+        }  
+    }
 }
 
 .añadir {
