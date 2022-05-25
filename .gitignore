@@ -104,4 +104,9 @@ dist
 .tern-port
 public/css/main.css
 public/css/main.css.map
+<<<<<<< HEAD
+public/css/gallery.css.map
+.gitignore
+=======
 .DS_Store
+>>>>>>> bd8b9761b4a79096b80cc2da39c584018bf128f8
