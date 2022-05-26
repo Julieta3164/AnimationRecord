@@ -1,3 +1,4 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css");
 body{
     margin: 5%;
 }
@@ -153,6 +154,14 @@ header {
             border: solid 10px rgb(94, 22, 22)
         }
     }
+    .muestra{
+        display: flex;
+        justify-content: center;
+        img{
+            margin: 1%;
+            width: 15%;
+        }  
+    }
 }
 
 .añadir {
@@ -160,9 +169,8 @@ header {
     justify-content: space-around;
     border: solid rgb(94, 22, 22);
 
-    img {
-        width: 55px;
-        height: 55px;
+    i{
+        font-size: 3em;
         margin: 1%;
     }
 }
@@ -178,7 +186,11 @@ header {
         width: 15%;
     }
 }
-
+#back{
+    width: 40px;
+   margin-left: 95%;
+   padding-top: 10px;
+}
 
 
 footer {
