@@ -1,4 +1,5 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css");
+
 body{
     margin: 5%;
 }
@@ -56,6 +57,10 @@ header {
         width: 100%;
         border: solid 3px rgb(94, 22, 22);
     }
+}
+
+#carouselExampleSlidesOnly{
+    width: 100%;
 }
 
 .title-2 {
