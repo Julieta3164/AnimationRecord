@@ -86,7 +86,7 @@ header {
 }
 
 .popular {
-    width: 99.7%;
+    width: 100%;
     padding-top: 50px;
     border: solid rgb(94, 22, 22);
     display: grid;
@@ -96,6 +96,7 @@ header {
 
 
     img {
+        margin-left: 3%;
         width: 225px;
         height: 300px;
     }
