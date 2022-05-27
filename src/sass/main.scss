@@ -86,6 +86,7 @@ header {
 }
 
 .popular {
+    width: 99.7%;
     padding-top: 50px;
     border: solid rgb(94, 22, 22);
     display: grid;
@@ -100,25 +101,25 @@ header {
     }
 
     img:hover {
-        width: 250px;
-        height: 320px;
-
+        filter: opacity(.5);
+        width: 240px;
+       
     }
 }
-
-#category {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    margin-left: 1.5%;
-    justify-content: center;
-    align-items: center;
-
-    img {
-        margin: 1%;
-        width: 90%;
-        border: solid rgb(94, 22, 22);
+    #category {
+        
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        margin-left: 1.5%;
+       justify-content: center;
+       align-items: center; 
+        img{
+           margin: 1%;
+            width:90%;
+            border: solid rgb(94, 22, 22);
+        }
     }
-}
+
 
 
 
