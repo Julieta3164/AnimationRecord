@@ -93,7 +93,7 @@ header {
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(3, 300px);
     row-gap: 50px;
-    
+
     img {
         margin-left: 3%;
         width: 225px;
@@ -172,7 +172,7 @@ header {
     .info {
         text-align: justify;
         font-family: 'Times New Roman', Times, serif;
-    height: 600px;
+        height: 600px;
         padding: 3%;
         border: solid 10px rgb(94, 22, 22);
 
@@ -180,7 +180,7 @@ header {
             font-size: 25px;
         }
     }
-   
+
 
     .muestra {
         display: flex;
