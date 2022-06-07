@@ -1,0 +1,198 @@
+@charset "UTF-8";
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css");
+body {
+  margin: 5%;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: solid 3px rgb(94, 22, 22);
+}
+header .logo {
+  width: 30%;
+}
+header .logo img {
+  width: 250px;
+  height: 320x;
+}
+header .title {
+  width: 50%;
+  font-family: "Lobster", cursive;
+  font-size: 40px;
+}
+header #contenedor {
+  width: 20%;
+  display: flex;
+  align-items: center;
+  margin: 3%;
+}
+header .home img {
+  width: 80px;
+  height: 80px;
+}
+header .carrito img {
+  width: 55px;
+  height: 55px;
+}
+
+.banner {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 3%;
+}
+.banner img {
+  width: 100%;
+  border: solid 3px rgb(94, 22, 22);
+}
+
+#carouselExampleSlidesOnly {
+  width: 100%;
+}
+
+.title-2 {
+  margin-top: 3%;
+  width: 100%;
+  height: 50px;
+  background-color: rgb(94, 22, 22);
+  text-align: center;
+  color: white;
+  font-family: "Lobster", cursive;
+  font-size: 40px;
+}
+
+#gallery {
+  background-color: rgb(94, 22, 22);
+  height: 50px;
+  color: white;
+  text-align: center;
+  font-family: "Lobster", cursive;
+  font-size: 40px;
+}
+
+.popular {
+  width: 100%;
+  padding-top: 50px;
+  border: solid rgb(94, 22, 22);
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(3, 300px);
+  row-gap: 50px;
+}
+.popular img {
+  margin-left: 3%;
+  width: 225px;
+  height: 300px;
+}
+.popular img:hover {
+  filter: opacity(0.5);
+  width: 240px;
+}
+
+#category {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-left: 1.5%;
+  justify-content: center;
+  align-items: center;
+}
+#category img {
+  margin: 1%;
+  width: 90%;
+  border: solid rgb(94, 22, 22);
+}
+
+.subscription {
+  margin-top: 1%;
+  width: 99, 5%;
+  border: solid rgb(94, 22, 22);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 150px;
+}
+.subscription .input {
+  margin: 1%;
+}
+.subscription .btn {
+  margin: 1%;
+}
+
+.principal {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  align-items: center;
+}
+.principal .otra-foto {
+  border: solid 3px rgb(94, 22, 22);
+  margin: 3%;
+}
+.principal .otra-foto img {
+  display: block;
+  margin: auto;
+  width: 60%;
+}
+.principal .texto-2 {
+  margin: 3%;
+}
+.principal .info {
+  text-align: justify;
+  font-family: "Times New Roman", Times, serif;
+  height: 600px;
+  padding: 3%;
+  border: solid 10px rgb(94, 22, 22);
+}
+.principal .info p {
+  font-size: 25px;
+}
+.principal .muestra {
+  display: flex;
+  justify-content: center;
+}
+.principal .muestra img {
+  margin: 1%;
+  width: 15%;
+}
+
+.añadir {
+  display: flex;
+  justify-content: space-around;
+  border: solid rgb(94, 22, 22);
+}
+.añadir i {
+  font-size: 3em;
+  margin: 1%;
+}
+
+.ultimas-fotos {
+  border: solid 3px rgb(94, 22, 22);
+  display: flex;
+  justify-content: space-between;
+  padding-left: 3%;
+}
+.ultimas-fotos img {
+  margin: 2%;
+  width: 15%;
+}
+
+#back {
+  width: 40px;
+  margin-left: 95%;
+  padding-top: 10px;
+}
+
+footer {
+  margin-top: 3%;
+  display: flex;
+  justify-content: center;
+  border: solid 3px rgb(94, 22, 22);
+}
+footer img {
+  width: 150px;
+}
+
+/*# sourceMappingURL=main.css.map */
